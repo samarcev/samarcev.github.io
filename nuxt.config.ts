@@ -5,11 +5,11 @@ const site = {
   title: "Максим Самарцев — Frontend-разработчик",
   description:
     "Портфолио frontend-разработчика: HTML, CSS, JavaScript, TypeScript, Angular, Vue, Nuxt и современные веб-технологии.",
-  url: "https://example.com", // TODO: заменить на боевой домен
+  url: "https://samarcev.github.io",
   locale: "ru_RU",
   lang: "ru",
-  twitter: "@username", // TODO: заменить или убрать
-  image: "/og-image.png", // TODO: добавить 1200×630 в public/
+  twitter: "@samarcev",
+  image: "/profile.jpg",
   imageAlt: "Максим Самарцев — Frontend-разработчик",
 };
 
@@ -24,10 +24,9 @@ const personSchema = {
   description: site.description,
   image: ogImage,
   sameAs: [
-    // TODO: добавить профили
-    // "https://github.com/username",
-    // "https://t.me/username",
-    // "https://www.linkedin.com/in/username",
+    "https://github.com/samarcev",
+    "https://t.me/IsRealMax",
+    "https://www.linkedin.com/in/samarcev",
   ],
   knowsAbout: [
     "HTML",
