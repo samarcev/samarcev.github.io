@@ -1,0 +1,25 @@
+{
+  "name": "my-site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "1.16.0",
+    "eslint": "^10.8.0",
+    "matter-js": "^0.20.0",
+    "nuxt": "^4.5.1",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/matter-js": "^0.20.2",
+    "prettier": "^3.9.6",
+    "sass": "^1.102.0"
+  }
+}
