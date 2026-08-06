@@ -43,6 +43,21 @@ const workPlaces = [
             </svg>
           </li>
         </ul>
+        <p>
+          Участвую в проектировании архитектуры клиентских решений, провожу
+          код-ревью.
+        </p>
+        <h3>Технический стек:</h3>
+        <p>
+          <b>Frontend</b>: Angular (12-17), Vue (2/3), Nuxt, TypeScript,
+          JavaScript,
+        </p>
+        <p><b>State Management</b>: NgRx, Redux, Pinia</p>
+        <p><b>Testing</b>: Jest, Vitest</p>
+        <p>
+          <b>Build & Tooling</b>: Webpack, Vite, npm, yarn, GitLab CI/CD, Docker
+        </p>
+        <p><b>Дополнительно</b>: Node.js, Express.js, Directus, Strapi</p>
       </div>
     </div>
   </div>
