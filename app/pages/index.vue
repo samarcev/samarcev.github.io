@@ -12,16 +12,10 @@
           alt=""
         />
       </h1>
-      <h2 class="home__role">Frontend</h2>
+      <h2 class="home__role">Frontend-разработчик</h2>
       <ClientOnly>
         <HomeStack />
       </ClientOnly>
     </div>
   </section>
 </template>
-
-<style>
-.home__role {
-
-}
-</style>

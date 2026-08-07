@@ -1,2 +1,4 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+Sitemap: https://samarcev.github.io/sitemap.xml
+Host: https://samarcev.github.io/
