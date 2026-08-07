@@ -52,7 +52,7 @@ const workPlaces = [
           <b>Frontend</b>: Angular (12-17), Vue (2/3), Nuxt, TypeScript,
           JavaScript,
         </p>
-        <p><b>State Management</b>: NgRx, Redux, Pinia</p>
+        <p><b>State Management</b>: NgRx, Redux, Pinia, Vuex</p>
         <p><b>Testing</b>: Jest, Vitest</p>
         <p>
           <b>Build & Tooling</b>: Webpack, Vite, npm, yarn, GitLab CI/CD, Docker
