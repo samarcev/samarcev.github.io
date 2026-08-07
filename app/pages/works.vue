@@ -1,5 +1,8 @@
+<script setup lang="ts"></script>
 <template>
   <section class="page">
-    <h1>Работы</h1>
+    <div class="container">
+      <h1>Работы</h1>
+    </div>
   </section>
 </template>
