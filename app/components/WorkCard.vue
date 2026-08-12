@@ -36,6 +36,7 @@ function resolveAssetUrl(value: string | { url?: string } | undefined): string {
 
 const imageSrc = computed(() => resolveAssetUrl(props.data?.image));
 const faviconSrc = computed(() => resolveAssetUrl(props.data?.favicon));
+const domainLetter = computed(() => hostname.value.charAt(0) || "?");
 </script>
 
 <template>
@@ -59,6 +60,9 @@ const faviconSrc = computed(() => resolveAssetUrl(props.data?.favicon));
   >
     <div class="work-card__media">
       <img v-if="imageSrc" :src="imageSrc" :alt="data.title" loading="lazy" />
+      <span v-else class="work-card__letter" aria-hidden="true">{{
+        domainLetter
+      }}</span>
     </div>
     <div class="work-card__body">
       <div class="work-card__meta">
@@ -104,6 +108,9 @@ const faviconSrc = computed(() => resolveAssetUrl(props.data?.favicon));
 
 .work-card__media {
   aspect-ratio: 1.91 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: var(--muted);
   overflow: hidden;
 
@@ -116,6 +123,14 @@ const faviconSrc = computed(() => resolveAssetUrl(props.data?.favicon));
       transform 0.2s ease,
       box-shadow 0.2s ease;
   }
+}
+
+.work-card__letter {
+  color: var(--card-foreground);
+  font-size: clamp(3rem, 18vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  user-select: none;
 }
 
 .work-card__body {
